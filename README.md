@@ -12,11 +12,11 @@ npm link
 
 ### Игра "Орел или решка" (для выхода из игры введите "exit")
 
-obverse-and-reverse --log-file-name <log-file-name>
+obverse-and-reverse --log-file-name <log_file_name>
 
 ### Анализатор игры "Орел или решка"
 
-game-analyzer --log-file-name <log-file-name>
+game-analyzer --log-file-name <log_file_name>
 
 ### Удалить линки
 
