@@ -4,50 +4,21 @@ git clone
 
 cd <path_to_project>
 
-git checkout hw_1_2
+git checkout hw_1_4
 
 npm install
 
 npm link
 
-### Посмотреть год/месяц/дату
+### Игра "Орел или решка" (для выхода из игры введите "exit")
 
-simple-date current
+obverse-and-reverse --log-file-name <log-file-name>
 
-simple-date current --year (-y)
+### Анализатор игры "Орел или решка"
 
-simple-date current --month (-m)
-
-simple-date current --date (-d)
-
-### Посмотреть год/месяц/дату в будущем
-
-simple-date add --year (-y)
-
-simple-date add --month (-m)
-
-simple-date add --date (-d)
-
-#### пример:
-
-simple-date add -d 1 -m 2 -y 3
-
-### Посмотреть год/месяц/дату в прошлом
-
-simple-date sub --year (-y)
-
-simple-date sub --month (-m)
-
-simple-date sub --date (-d)
-
-#### пример:
-
-simple-date sub -d 1 -m 2 -y 3
-
-### Игра "Угадай число"
-
-pick-number
+game-analyzer --log-file-name <log-file-name>
 
 ### Удалить линки
 
-npm unlink
+npm unlink obverse-and-reverse
+npm unlink game-analyzer

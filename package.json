@@ -7,8 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "simple-date": "./simple-date.js",
-    "pick-number": "./pick-number.js"
+    "obverse-and-reverse": "./game-obverse-and-reverse.js",
+    "game-analyzer": "./game-analyzer.js"
   },
   "repository": {
     "type": "git",
