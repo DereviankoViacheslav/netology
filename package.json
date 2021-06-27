@@ -4,11 +4,7 @@
   "description": "git clone",
   "main": "pick-number.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "bin": {
-    "obverse-and-reverse": "./game-obverse-and-reverse.js",
-    "game-analyzer": "./game-analyzer.js"
+    "start": "node -r dotenv/config weatherstack.js"
   },
   "repository": {
     "type": "git",
@@ -21,8 +17,7 @@
     "url": "https://github.com/DereviankoViacheslav/netology/issues"
   },
   "homepage": "https://github.com/DereviankoViacheslav/netology#readme",
-  "dependencies": {
-    "moment": "^2.29.1",
-    "yargs": "^17.0.1"
+  "devDependencies": {
+    "dotenv": "^10.0.0"
   }
 }

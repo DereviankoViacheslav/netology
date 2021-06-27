@@ -1,24 +1,17 @@
-## Запустить проект
+### Приложение для просмотра погоды
+
+## Установить проект
 
 git clone
 
 cd <path_to_project>
 
-git checkout hw_1_4
+git checkout hw_1_5
 
 npm install
 
-npm link
+cp .env.example .env
 
-### Игра "Орел или решка" (для выхода из игры введите "exit")
+### Запустить приложение (для выхода введите "exit")
 
-obverse-and-reverse --log-file-name <log_file_name>
-
-### Анализатор игры "Орел или решка"
-
-game-analyzer --log-file-name <log_file_name>
-
-### Удалить линки
-
-npm unlink obverse-and-reverse
-npm unlink game-analyzer
+npm run start
